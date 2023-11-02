@@ -1,0 +1,76 @@
+/* Reset some default browser styles for better consistency */
+body, h1, h2, p {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif; /* A safe and neutral choice, can be replaced with a web font if desired */
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+/* Navigation Bar */
+.navbar {
+    background-color: #333; /* Dark background for contrast */
+}
+
+.navbar-brand, .nav-link {
+    color: #fff !important; /* White color for better visibility on dark background */
+}
+
+/* Hero Section */
+.hero-section {
+    background-color: #f4f4f4; /* Light gray background for contrast */
+    padding: 60px 0;
+    text-align: center;
+}
+
+/* Portfolio Section */
+#portfolio {
+    padding: 60px 0;
+}
+
+#portfolio img {
+    transition: transform .3s ease;
+    margin-bottom: 15px;
+}
+
+#portfolio img:hover {
+    transform: scale(1.05); /* Zoom effect on hover */
+}
+
+/* About Me Section */
+#about {
+    padding: 60px 0;
+    background-color: #f4f4f4; /* Light gray background for contrast */
+}
+
+/* Contact Section */
+#contact {
+    padding: 60px 0;
+}
+
+#contact form {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+/* Footer */
+footer {
+    background-color: #333; /* Dark background for contrast */
+    color: #fff; /* White text for visibility on dark background */
+    padding: 20px 0;
+    text-align: center;
+}
+
+footer a {
+    color: #fff;
+    margin: 0 10px;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
